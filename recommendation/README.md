@@ -1,5 +1,5 @@
 <html>
-<head><title></title></head>
+<head></head>
 
 <h3>Recommendation System</h3>
 <body>
@@ -17,7 +17,7 @@ https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction</p>
 <p>Demo</p>
 
 <video width="640" height="360" controls autoplay loop  playsinline>
-  <source src="./assets/Screencast from 09-26-2024 07:26:47 PM.webm" type="video/webm">
+  <source src="https://github.com/Venkata-Ch/ML_Fullstack_Projects/blob/main/recommendation/assets/Screencast%20from%2009-26-2024%2007_26_47%20PM.webm" type="video/webm">
 </video>
 
 

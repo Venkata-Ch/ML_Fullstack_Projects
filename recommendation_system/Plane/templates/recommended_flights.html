@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h4>The data of the best flights for morning</h4>
+<p>The recommended flights as per the data as follows:</p>
+<div class="container">
+    <div class="card-columns">
+        {% for flight in recommended_list %}
+        <div class="col-auto mb-3">
+            <div class="card">
+                <img class="card-img-left"
+                     src="img.jpg" >
+                <div class="card-body bg-light">
+                    <h5 class="card-title">Airline_name: {{flight.airline}}</h5>
+                    <p class="card-text">Arrival_time: {{flight.arrival_time}}</p>
+                    <p class="card-text">Departure time: <b>{{flight.departure_time}}</b></p>
+                    <p class="card-text">Price(Rupees): <b>{{flight.price}}</b></p>
+                    <p class="card-text">Info: {{flight.passenger_class}}, Stops: {{flight.stops}}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>
